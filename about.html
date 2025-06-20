@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Acerca de mí</title>
+  <style>
+    :root {
+      --color-fondo: #f2f5f9;
+      --color-principal: #1f2a36;
+      --color-acento: #007aff;
+      --color-blanco: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: var(--color-fondo);
+      font-family: 'Segoe UI', sans-serif;
+      color: var(--color-principal);
+    }
+
+    .tarjeta {
+      background: var(--color-blanco);
+      max-width: 680px;
+      margin: 80px auto;
+      padding: 40px 30px;
+      border-radius: 20px;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.07);
+      text-align: center;
+    }
+
+    .avatar {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid var(--color-acento);
+      box-shadow: 0 5px 15px rgba(0,122,255,0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .descripcion {
+      margin-top: 8px;
+      font-size: 1rem;
+      color: #555;
+    }
+
+    .avatar:hover {
+      transform: scale(1.05);
+    }
+
+    h1 {
+      margin-top: 24px;
+      font-size: 2.1rem;
+      color: var(--color-acento);
+      font-weight: 600;
+    }
+
+    .seccion {
+      margin-top: 40px;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    li {
+      margin: 12px 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: var(--color-principal);
+      font-weight: 500;
+      transition: color 0.2s;
+      border-bottom: 2px solid transparent;
+    }
+
+    a:hover {
+      color: var(--color-acento);
+      border-color: var(--color-acento);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="tarjeta">
+    <img src="https://jly-search-hackeroto-c33986a34fb8.herokuapp.com/download/5195985707/profile.png" alt="Foto de perfil" class="avatar">
+    <h1>yordante</h1>
+
+    <p class="descripcion">Entusiasta de la tecnología y el software libre</p>
+
+    <div class="seccion">
+      <h2>🤖 Mis Bots</h2>
+      <ul>
+        <li><a href="https://i.delta.chat/#E44375DE1941E7A067C69E084C1ACBDFE1C593B3&a=githutils%40chat.lylapol.com&n=Github%20Utils&i=-iJU2zqa_tzAuoUvP6QYtEqW&s=jaxyLLbAp_pimbP-IDW0VkJb">Github Utils</a></li>
+        <li><a href="https://i.delta.chat/#7DAA05EAD5B18620D6BEAA02F22D8B764D86DE32&a=masto.bot%40arcanechat.me&n=Mastodon%20Bridge&i=7RXh-2iefRvHnfGeJ4EhMhMj&s=PJNmyjJQGmhbkCfq_7viTu_m">Mastodon Bridge</a></li>
+        <li><a href="https://i.delta.chat/#7F14B1C5BBE6CBD5969C4854B92D39CA954EEED7&a=removeusr%40arcanechat.me&n=La%20Politzia&i=o3eBVp2ug-WX9wnUvRQ5GMsD&s=BpCt57QMGkwiF4Fkm-FrKHAT">La Politzia</a></li>
+        <li><a href="https://i.delta.chat/#B1CD440C4949BEF14171E66503BE73A0A34BEF49&a=groupsbot%40arcanechat.me&n=ChannelsBot&i=-xaEkOe6epD&s=C4IX_ELTF4B">Channels Bot</a></li>
+        <li><a href="https://i.delta.chat/#C4634029413CB61FA770131F2A02F4CCE4B57896&a=starlight%40disroot.org&n=MultiBot&i=fkfDDIpxFVq&s=JCg192tuQom">MultiBot</a></li>
+        <li><a href="https://i.delta.chat/#D6D8B3B4581C5027C28D5BA34353BFA32B297A9F&a=deltaup01%40tarpit.fun&n=DeltaUp&i=Nel87GkjRylR3XxI7IQlXu0G&s=JVcDnd1LO3g44kbZFpcNAwcB">DeltaUp</a></li>
+        <li><a href="https://i.delta.chat/#26AB1D36EBF13D25B0A45BA8D2ADCD4F803AC35B&a=tggroups1%40deltachat.jurkiewicz.chat&n=TG%20Groups&i=DvjNPNRrVwi&s=ybfCqgKffHa">Telegram Groups Bridge</a></li>
+        <li><a href="mailto:yordante@disroot.org">Telegram Bridge</a></li>
+      </ul>
+    </div>
+
+    <div class="seccion">
+      <h2>📱 Redes</h2>
+      <ul>
+        <li><a href="https://t.me/yordante">Telegram</a></li>
+        <li><a href="https://i.delta.chat/#144AD7AC5B7FFBF9DA12231DE4B5F7723A03FA1F&a=zyordante%40chat.lylapol.com&n=%EA%AA%97%EA%AA%AE%F0%9D%98%B3%E1%A6%94%EA%AA%96%EA%AA%80%F0%9D%93%BD%EA%AB%80&i=DeADN4drnFlIc2SVUR_AztVC&s=q4BEU2CDt04hr3vQjX3sKl7V">DeltaChat</a></li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>
